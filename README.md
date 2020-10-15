@@ -1,19 +1,16 @@
+
 # vue-mall
 
-## Project setup
-```
-npm install
+1 npm install vue-template-compiler -D
+
+2 npm install
+
+3 npm run dev
 ```
 
-### Compiles and hot-reloads for development
+###本项目学习自b站，已完成项目进度
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
+https://www.bilibili.com/video/BV1H7411j7Mc?p=1
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npm cache clean --force
