@@ -12,5 +12,3 @@
 ```
 https://www.bilibili.com/video/BV1H7411j7Mc?p=1
 ```
-
-npm cache clean --force
