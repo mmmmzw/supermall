@@ -121,6 +121,7 @@
 			//请求多个数据（banner,类目）
 			getHomeMulitData(){
 				getHomeMulitData().then(res => {
+					console.log("res:",res);
 					this.banners = res.data.data.banner.list;
 					this.recommends = res.data.data.recommend.list;
 				})
@@ -164,7 +165,7 @@
 	}
 	.home-nav {
 		color: #fff;
-		background-color: deeppink;
+		background-color: var(--color-text);
 		position: fixed;
 		top: 0;
 		left: 0;

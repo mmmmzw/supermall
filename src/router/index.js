@@ -2,9 +2,11 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 const Home = () => import('../views/home/Home.vue')
-const Sort = () => import('../views/sort/Sort.vue')
+// const Sort = () => import('../views/sort/Sort.vue')
+const Category = () => import('../views/category/Category.vue')
 const Cart = () => import('../views/cart/Cart.vue')
-const My = () => import('../views/my/My.vue')
+// const My = () => import('../views/my/My.vue')
+const Profile = () => import('../views/profile/Profile.vue')
 const Detail = () => import('../views/detail/Detail.vue')
 
 Vue.use(VueRouter)
@@ -20,9 +22,9 @@ Vue.use(VueRouter)
     component: Home
   },
   {
-    path: '/sort',
-    name: 'Sort',
-	component: Sort
+    path: '/category',
+    name: 'Category',
+	component: Category
   },
   {
     path: '/cart',
@@ -30,9 +32,9 @@ Vue.use(VueRouter)
 	component: Cart
   },
   {
-    path: '/my',
-    name: 'My',
-	component: My
+    path: '/profile',
+    name: 'Profile',
+	component: Profile
   },
   {
     path: '/detail/:iid',

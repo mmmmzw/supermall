@@ -11,7 +11,7 @@
 				<div>主页</div>
 			</template>
 		</tab-bar-item>
-		<tab-bar-item path="/sort">
+		<tab-bar-item path="/category">
 			<template #item-icon>
 				<img src="~assets/images/tabbar/icon02.png" alt="">
 			</template>
@@ -33,7 +33,7 @@
 				<div>购物车</div>
 			</template>
 		</tab-bar-item>
-		<tab-bar-item path="/my">
+		<tab-bar-item path="/profile">
 			<template #item-icon>
 				<img src="~assets/images/tabbar/icon04.png" alt="">
 			</template>

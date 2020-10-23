@@ -1,7 +1,7 @@
 @import "./normalize.css";
 
 :root {
-  --color-text: #666;
+  /* --color-text: #666; */
   --color-high-text: #ff5777;
   --color-text: #ff8198;
   --color-background: #fff;
